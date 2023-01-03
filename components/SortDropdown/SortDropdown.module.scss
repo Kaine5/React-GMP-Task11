@@ -1,0 +1,40 @@
+.sortOptions__label {
+  margin-right: 1em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  letter-spacing: 0.888889px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.sortOptions__select {
+  background-color: transparent;
+  border: none;
+  padding: 1em;
+  color: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.888889px;
+  text-transform: uppercase;
+  appearance: none;
+  background-image: url('../../public/img/down\ arrow.svg');
+  background-repeat: no-repeat;
+  background-position: right 50%;
+  background-color: #232323;
+  &::after {
+    color: #f65261;
+  }
+  &:focus-visible {
+    border: transparent;
+    outline: none;
+  }
+}

@@ -1,0 +1,11 @@
+.genreOptions__list {
+    display: flex;
+}
+
+.genreOptions__item {
+    padding: 1em;
+    &.active{
+        border-bottom: 1px solid red;
+    }
+}
+
